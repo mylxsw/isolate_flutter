@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:image/image.dart';
+import 'package:image/image.dart' hide ImageFormat;
 import 'package:isolate_flutter/isolate_flutter.dart';
 
 import 'package:isolate_image_compress/src/constants/enums.dart';
